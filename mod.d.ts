@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2025 The Stdlib Authors.
@@ -16,26 +16,31 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { Complex64 } from '@stdlib/types/complex';
 
 /**
-* Compute the argument of a single-precision complex floating-point number in radians.
+* Computes the argument of a single-precision complex floating-point number in radians.
 *
-* @module @stdlib/math-base-special-cphasef
+* ## Notes
+*
+* -   The argument of a complex number, also known as the phase, is the angle of the radius extending from the origin to the complex number plotted in the complex plane and the positive real axis.
+*
+* @param z - complex number
+* @returns argument
 *
 * @example
 * var Complex64 = require( '@stdlib/complex-float32-ctor' );
-* var cphasef = require( '@stdlib/math-base-special-cphasef' );
 *
 * var phi = cphasef( new Complex64( 5.0, 3.0 ) );
 * // returns ~0.5404
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function cphasef( z: Complex64 ): number;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = cphasef;
