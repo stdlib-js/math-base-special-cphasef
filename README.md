@@ -50,7 +50,7 @@ The [argument][complex-number-argument] of a complex number, also known as the *
 ## Usage
 
 ```javascript
-import cphasef from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cphasef@esm/index.mjs';
+import cphasef from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cphasef@v0.1.0-esm/index.mjs';
 ```
 
 #### cphasef( z )
@@ -83,7 +83,7 @@ var phi = cphasef( new Complex64( 5.0, 3.0 ) );
 import Complex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@esm/index.mjs';
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import cphasef from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cphasef@esm/index.mjs';
+import cphasef from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cphasef@v0.1.0-esm/index.mjs';
 
 // Create an array of random numbers:
 var arr = new Complex64Array( uniform( 200, -100.0, 100.0 ) );
