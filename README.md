@@ -52,7 +52,7 @@ The [argument][complex-number-argument] of a complex number, also known as the *
 To use in Observable,
 
 ```javascript
-cphasef = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cphasef@umd/browser.js' )
+cphasef = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cphasef@v0.1.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -64,7 +64,7 @@ var cphasef = require( 'path/to/vendor/umd/math-base-special-cphasef/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cphasef@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cphasef@v0.1.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -105,7 +105,7 @@ var phi = cphasef( new Complex64( 5.0, 3.0 ) );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cphasef@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-cphasef@v0.1.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
