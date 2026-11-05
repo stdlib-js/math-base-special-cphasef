@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`7349dff`](https://github.com/stdlib-js/stdlib/commit/7349dffeddd90289879f06e70acc1be8544af75b) - **style:** add missing whitespace [(#16507)](https://github.com/stdlib-js/stdlib/pull/16507) _(by Philipp Burckhardt)_
 -   [`dc8266d`](https://github.com/stdlib-js/stdlib/commit/dc8266d0126c22559c57697faad0b8d62b350371) - **test:** migrate `math/base/special/cphasef` to ULP-based assertions [(#14362)](https://github.com/stdlib-js/stdlib/pull/14362) _(by Athan Reines)_
 -   [`48141ca`](https://github.com/stdlib-js/stdlib/commit/48141ca21c1bf935f236e815a400cb3911056556) - **bench:** fix `Complex64` import in `math/base/special/cphasef` [(#12040)](https://github.com/stdlib-js/stdlib/pull/12040) _(by Karan Anand)_
 -   [`c73c8b3`](https://github.com/stdlib-js/stdlib/commit/c73c8b39bd76529182ea2b3423c6f0feab434774) - **bench:** refactor to use string interpolation in `math/base/special` [(#11387)](https://github.com/stdlib-js/stdlib/pull/11387) _(by Karan Anand)_
@@ -26,10 +27,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Karan Anand
+-   Philipp Burckhardt
 
 </section>
 
